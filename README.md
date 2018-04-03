@@ -41,7 +41,7 @@ mit dem Namen 'hilfe', welche in der main-Datei definiert wurde, kann also nur a
 - semesterarbeitlib.cpp
 
 In der Bibliothek sind alle wichtigen Funktionen des Projektes und der Klasse definiert. Nur diese sorgen dafür, dass in dem Projekt
-überhaupt etwas passiert. Es gibt fünf Funktionen.
+überhaupt etwas passiert. Es gibt sechs Funktionen.
 Die erste Funktion ist die Methode 'laden()' aus der Klasse Clausgabe, welche in der main-Datei durch das Objekt 'daten_laden' 
 ausgeführt wird. Die Funktion sorgt dafür, dass die XML-Datei 'filminventur.xml' und die Textdatei 'lager.txt' in eine gemeinsame XML-
 Instanz ausgelagert werden. Erstmals wurden die Objekte der Eingabeströme 'eingabe1' und 'eingabe2' definiert sowie ein Objekt des
@@ -54,5 +54,6 @@ durch eine for-Schleife und einem switch-case. Damit wird gesorgt, dass in der n
 Anfang zu finden sind und die Inhalte der XML-Datei erscheinen danach. Am Ende der Funktion wird der Nutzer darüber benachrichtigt, dass
 das Parsing erfolgreich war und die Datei erstellt wurde. Die Datei ist danach im Debugger-Ordner zu finden. Danach kann der Nutzer eine
 neue Funktion des CLI auswählen.
-Die zweite Funktion ist die Methode 'hilfeanzeigen()' aus der Klasse Clhilfe, welche in der main-Datei durch das Objekt 'hilfe' ausgeführt wird. Diese Funktion gibt nur Text an das Programm zurück, welche sich der User durchlesen kann, um das Programm und dessen 
-Funktionen besser zu verstehen. 
+Die zweite Funktion ist die Methode 'hilfeanzeigen()' aus der Klasse Clhilfe, welche in der main-Datei durch das Objekt 'hilfe' 
+ausgeführt wird. Diese Funktion gibt nur Text an das Programm zurück, welche sich der User durchlesen kann, um das Programm und dessen
+Funktionen besser zu verstehen.
