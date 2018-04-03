@@ -1,0 +1,274 @@
+<videothekinventur>
+ <listFilms>
+   <film id="102">
+        <name>Annabelle 2</name>
+        <genre>Horror</genre>
+        <preis>3,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="186">
+        <name>Tigermilch</name>
+        <genre>Drama</genre>
+        <preis>2,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="078">
+        <name>Fifty Shades of Grey - Gefährliche Liebe</name>
+        <genre>Drama</genre>
+        <preis>3,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="178">
+        <name>Ostwind - Aufbruch nach Ora</name>
+        <genre>Drama</genre>
+        <preis>2,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="005">
+        <name>Die Schöne und das Biest</name>
+        <genre>Realanimation</genre>
+        <preis>4,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="006">
+        <name>Ich - Einfach unverbesserlich 3</name>
+        <genre>Animation</genre>
+        <preis>4,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="156">
+        <name>Pirates of the Caribbean: Salazars Rache</name>
+        <genre>Abenteuer</genre>
+        <preis>4,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="096">
+        <name>Guardians of the Galaxy Vol2</name>
+        <genre>Abenteuer</genre>
+        <preis>3,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="004">
+        <name>Dunkirk</name>
+        <genre>Drama</genre>
+        <preis>4,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="163">
+        <name>Wonder Woman</name>
+        <genre>Abenteuer</genre>
+        <preis>4,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="145">
+        <name>Baywatch</name>
+        <genre>Komödie</genre>
+        <preis>3,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="079">
+        <name>The Boss Baby</name>
+        <genre>Animation</genre>
+        <preis>2,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="001">
+        <name>Valerian - Die Stadt der tausend Planeten</name>
+        <genre>Abenteuer</genre>
+        <preis>4,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="078">
+        <name>Spider-Man Homecoming</name>
+        <genre>Abenteuer</genre>
+        <preis>4,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="013">
+        <name>Transformers:The Last Knight</name>
+        <genre>Action</genre>
+        <preis>3,99€</preis>
+        <jahr>2017</jahr>
+    </film>
+        <film id="016">
+        <name>Phantastische Tierwesen und wo sie zu finden sind</name>
+        <genre>Abenteuer</genre>
+        <preis>3,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="067">
+        <name>Arrival</name>
+        <genre>Mystery</genre>
+        <preis>2,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="099">
+        <name>Die glorreichen 7</name>
+        <genre>Western</genre>
+        <preis>2,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="058">
+        <name>The First Avenger:Civil War</name>
+        <genre>Action</genre>
+        <preis>3,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="025">
+        <name>Der Spion und sein Bruder</name>
+        <genre>Komödie</genre>
+        <preis>2,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="077">
+        <name>Vaiana</name>
+        <genre>Animation</genre>
+        <preis>3,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="165">
+        <name>Willkommen bei den Hartmanns</name>
+        <genre>Komödie</genre>
+        <preis>2,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="133">
+        <name>Ein ganzes halbes Jahr</name>
+        <genre>Drama</genre>
+        <preis>2,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="031">
+        <name>Rogue One - A Star Wars Story</name>
+        <genre>Action</genre>
+        <preis>4,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="035">
+        <name>Sing</name>
+        <genre>Animation</genre>
+        <preis>2,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="192">
+        <name>La La Land</name>
+        <genre>Musical</genre>
+        <preis>3,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="144">
+        <name>Pets</name>
+        <genre>Animation</genre>
+        <preis>2,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="062">
+        <name>Hidden Figures - Unerkannte Heldinnen</name>
+        <genre>Drama</genre>
+        <preis>2,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="070">
+        <name>Findet Dorie</name>
+        <genre>Animation</genre>
+        <preis>3,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="103">
+        <name>Doctor Strange</name>
+        <genre>Abenteuer</genre>
+        <preis>3,99€</preis>
+        <jahr>2016</jahr>
+    </film>
+        <film id="109">
+        <name>Cinderella</name>
+        <genre>Realanimation</genre>
+        <preis>2,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="206">
+        <name>Mustang</name>
+        <genre>Drama</genre>
+        <preis>1,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="188">
+        <name>Star Wars: Das Erwachen der Macht</name>
+        <genre>Abenteuer</genre>
+        <preis>3,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="114">
+        <name>Fifty Shades of Grey - Geheimes Verlangen</name>
+        <genre>Drama</genre>
+        <preis>2,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="130">
+        <name>Steve Jobs</name>
+        <genre>Dokumentation</genre>
+        <preis>1,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="161">
+        <name>Fack Ju Göhte 2</name>
+        <genre>Komödie</genre>
+        <preis>2,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="029">
+        <name>Alles steht Kopf</name>
+        <genre>Animation</genre>
+        <preis>2,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="023">
+        <name>Ant-Man</name>
+        <genre>Abenteuer</genre>
+        <preis>3,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="111">
+        <name>Minions</name>
+        <genre>Animation</genre>
+        <preis>3,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="098">
+        <name>Everest</name>
+        <genre>Abenteuer</genre>
+        <preis>2,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="085">
+        <name>Macbeth</name>
+        <genre>Dokumentation</genre>
+        <preis>1,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="080">
+        <name>Knock Knock</name>
+        <genre>Action</genre>
+        <preis>1,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="042">
+        <name>Fantastic Four</name>
+        <genre>Abenteuer</genre>
+        <preis>2,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="123">
+        <name>Poltergeist</name>
+        <genre>Horror</genre>
+        <preis>1,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+        <film id="151">
+        <name>Pixels</name>
+        <genre>Abenteuer</genre>
+        <preis>3,99€</preis>
+        <jahr>2015</jahr>
+    </film>
+ </listFilms>
+</videothekinventur>

@@ -1,0 +1,8 @@
+<!ELEMENT videothekinventur (listFilms)>
+<!ELEMENT listFilms (film+)>
+<!ELEMENT film (name,genre,preis,jahr)>
+<!ATTLIST film id CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT preis (#PCDATA)>
+<!ELEMENT jahr (#PCDATA)>
