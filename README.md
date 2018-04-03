@@ -13,7 +13,7 @@ Anwendungsfall:
 
 In einer Videothek hat eine Inventur stattgefunden. In der XML-Instanz 'filminventur.xml'sind Filme hinterlegt.Die Txt-Datei 'lager.txt'
 enthält die Kennung des Artikels, den Platz in der Schublade und die Anzahl der Filme. In einem kleinen CLI sollen nun diese Dateien 
-zusammengeführt werden sowie andere Funktionen. 
+zusammengeführt werden sowie andere Funktionen. Die Datei 'filminventur_struktur.dtd' stellt dabei die Struktur für die XML-Datei dar.
 
 Dateien:
 
