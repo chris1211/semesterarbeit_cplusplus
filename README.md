@@ -10,6 +10,8 @@ Diese Datei lässt sich am besten auf GITHUB lesen. Dazu drückt man auf die REA
 um die Datei im Originalen zu lesen.
 Für diese Semesterarbeit wurde Stufe I der Anforderung und Stufe IV erledigt.
 Der Repository Name lautet 'semesterarbeit_cplusplus'.
+Die Semesterarbeit wurde zudem mit dem Compiler MinGw 5.3.0 auf QT erstellt. Dazu sollte zusätzlich das Kommandozeilenargument 'install'
+für make in das leere Zeilenfeld geschrieben werden, damit die Dateien geparst werden können.
 
 
 Anwendungsfall:
