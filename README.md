@@ -9,6 +9,7 @@ Dazu sollen die Dateien dieser Semesterarbeit im Abschnitt 'Dateien' erklärt we
 Diese Datei lässt sich am besten auf GITHUB lesen. Dazu drückt man auf die README-Datei und klickt auf den RAW-Modus von GITHUB, 
 um die Datei im Originalen zu lesen.
 Für diese Semesterarbeit wurde Stufe I der Anforderung und Stufe IV erledigt.
+Der Repository Name lautet 'semesterarbeit_cplusplus'.
 
 
 Anwendungsfall:
