@@ -8,6 +8,8 @@ In diesem README-File soll die Semesterarbeit dabei technisch näher erläutert 
 Dazu sollen die Dateien dieser Semesterarbeit im Abschnitt 'Dateien' erklärt werden. 
 Diese Datei lässt sich am besten auf GITHUB lesen. Dazu drückt man auf die README-Datei und klickt auf den RAW-Modus von GITHUB, 
 um die Datei im Originalen zu lesen.
+Für diese Semesterarbeit wurde Stufe I der Anforderung und Stufe IV erledigt.
+
 
 Anwendungsfall:
 
