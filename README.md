@@ -74,4 +74,15 @@ neuen Dateinamen, welcher bereits als 'dateiname1_txt' als String deklariert wur
 Zusatzfunktionen von String der Text'.txt' an die letzte Stelle der Zeichenkette gespeichert, damit eine Textdatei gespeichert wird. Die
 Anzahl der Filme wird in dieser gespeichert und danach wird der Nutzer auch hier darüber benachrichtigt, dass die Datei erstellt wurde 
 und sie im Debugger-Ordner zu finden ist.
-
+Die Methode 'berechnen_lager' funktioniert nach dem selben Prinzip. Nachdem erstmals ein Objekt des Eingabe- und Ausgabestroms 
+deklariert wurde, beginnt schon wieder ein Parsing der Datei 'lager.txt'. Diesmal sollen die im Header deklarierten Integer namens 
+'zaehlera1' bis 'zaehlerd3' immer um eine Zahl angehoben werden, sobald der switch-case bei ' ' angelangt ist. Die gespeicherten
+Zeichen sollen dabei im Puffer betrachtet werden und somit soll der richtige Zähler um die Zahl 1 angehoben werden. Danach gibt das 
+Programm das Ergebnis des Parsings und somit die in den Integers gespeicherte Zahl aus. Nun wird wieder nach einem Dateinamen gefragt,
+damit die Werte exportiert werden können. Auch dies funktioniert wieder durch die Zusatzfunktionen von String. Danach gibt das Programm 
+erneut aus, dass die Datei erstellt wurde und im Debugger-Ordner zu finden ist. 
+Die letzte Funktion des Programmes ist die Methode 'dtd_anzeigen()' aus der Klasse Cldtd, welche in der main-Datei durch das Objekt 
+'dtdladen' aufgerufen wird. In diesem wurde erstmals nur ein Objekt des Eingabestromes definiert. Danach beginnt das Parsing der
+Datei 'filminventur_struktur.dtd', welche auch hier durch eine for-Schleife und einem switch-case geschieht. Das Parsing wird in das
+Hauptprogramm übertragen und der Nutzer kann sehen, welche Elemente der XML-Datei welchen Tag besitzt. Am Ende wird ausgegeben, dass die
+XML-Datei der Filminventur der Struktur der DTD-Datei entspricht.
