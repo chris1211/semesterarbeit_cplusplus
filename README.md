@@ -46,14 +46,32 @@ Die erste Funktion ist die Methode 'laden()' aus der Klasse Clausgabe, welche in
 ausgeführt wird. Die Funktion sorgt dafür, dass die XML-Datei 'filminventur.xml' und die Textdatei 'lager.txt' in eine gemeinsame XML-
 Instanz ausgelagert werden. Erstmals wurden die Objekte der Eingabeströme 'eingabe1' und 'eingabe2' definiert sowie ein Objekt des
 Ausgabestromes namens 'file' und einen String namens 'dateiname'.  Das Programm bittet den User erstmals um einen Dateinamen, in denen 
-die beiden Dateien zusammenkommen sollen. Dieser Name wird in den String gespeichert und durch die Elementfunktionen 'length()' und 
+die beiden Dateien zusammenkommen sollen. Dieser Name wird in dem String gespeichert und durch die Elementfunktionen 'length()' und 
 'insert()' von String, wird der Zusatz '.xml' an die letzte Stelle der Zeichenkette von 'dateiname' gespeichert. Die Objekte der 
-Eingabe- und Ausgabeströme werden geöffnet und durch eine for-Schleife und einem switch-case sollen die Zeichen der jeweiligen Dateien
-in dem Objekt 'file' gespeichert werden. Das Parsing der Textdatei erfolgt zudem in dem switch-case von '>'. Auch dieses Parsing erfolgt
-durch eine for-Schleife und einem switch-case. Damit wird gesorgt, dass in der neu entstandenen XML-Instanz die Inhalte der Textdatei am
-Anfang zu finden sind und die Inhalte der XML-Datei erscheinen danach. Am Ende der Funktion wird der Nutzer darüber benachrichtigt, dass
-das Parsing erfolgreich war und die Datei erstellt wurde. Die Datei ist danach im Debugger-Ordner zu finden. Danach kann der Nutzer eine
-neue Funktion des CLI auswählen.
+Eingabe- und Ausgabeströme werden geöffnet und durch eine for-Schleife und einem switch-case, bei dem die einzelnen Zeichen jeweils im 
+Puffer gespeichert und durch die cases ausgegeben werden, sollen die Zeichen der jeweiligen Dateien in dem Objekt 'file' gespeichert 
+werden. Das Parsing der Textdatei erfolgt zudem in dem switch-case von '>'. Auch dieses Parsing erfolgt durch eine for-Schleife und 
+einem switch-case. Damit wird gesorgt, dass in der neu entstandenen XML-Instanz die Inhalte der Textdatei am Anfang zu finden sind und 
+die Inhalte der XML-Datei erscheinen danach. Am Ende der Funktion wird der Nutzer darüber benachrichtigt, dass das Parsing erfolgreich 
+war und die Datei erstellt wurde. Die Datei ist danach im Debugger-Ordner zu finden. Danach kann der Nutzer eine neue Funktion des CLI 
+auswählen. 
 Die zweite Funktion ist die Methode 'hilfeanzeigen()' aus der Klasse Clhilfe, welche in der main-Datei durch das Objekt 'hilfe' 
 ausgeführt wird. Diese Funktion gibt nur Text an das Programm zurück, welche sich der User durchlesen kann, um das Programm und dessen
 Funktionen besser zu verstehen.
+Die dritte Funktion ist die Methode 'berechnen()' aus der Klasse Clberechnen, welche in der main-Datei durch das Objekt 'rechnung'
+ausgeführt wird. Diese dient im Grunde genommen nur dazu, dass die richtige Methode für die weitere Berechnung ausgewählt wird. Es 
+wurde nur ein String namens 'eingabe' deklariert. Das Programm fragt den User nach der Zahl 1 oder 2. Diese wird in dem String 
+gespeichert und durch ein if-else case wird definiert, dass wenn die Zahl 1 eingegeben wurde, die Methode 'berechnen_anzahl()' 
+ausgeführt werden soll und bei der Zahl 2 die Methode 'berechnen_lager()'. Falls die Usereingabe etwas anderes beinhaltet, wird der 
+Nutzer dazu aufgefordert, es nochmal zu versuchen. 
+Die Methode 'berechnen_anzahl()' der Klasse Clberechnen wird ausgeführt, sobald der User die Zahl 1 bei der Methode 'berechnen()' 
+eingibt. Auch in diesem wurden erstmals Objekte der Eingabe - und Ausgabeströme definiert. Das Programm zeigt dem Nutzer durch ein 
+anderes Parsing der Datei 'lager.txt' erstmals nur die Anzahl des jeweiligen Filmes an, welche verfügbar sind. Auch dies geschieht durch
+eine for-Schleife und dem switch-case, welcher diesmal aber nur bei dem case '\n' etwas ausgeben soll. Nachdem dies passiert ist, gibt
+das Programm die Nachricht aus, wieviele Filme das insgesamt macht. Die Anzahl dessen wurde im Vornherein in dem Integer 'anzahl' 
+gespeichert, welche in der Header-Datei unter dem Punkt Clberechnen deklariert wurde. Daraufhin fragt das Programm wieder nach einem 
+neuen Dateinamen, welcher bereits als 'dateiname1_txt' als String deklariert wurde. Wie bereits bei der Methode 'laden()' wird durch die
+Zusatzfunktionen von String der Text'.txt' an die letzte Stelle der Zeichenkette gespeichert, damit eine Textdatei gespeichert wird. Die
+Anzahl der Filme wird in dieser gespeichert und danach wird der Nutzer auch hier darüber benachrichtigt, dass die Datei erstellt wurde 
+und sie im Debugger-Ordner zu finden ist.
+
